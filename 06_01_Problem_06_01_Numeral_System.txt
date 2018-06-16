@@ -1,0 +1,25 @@
+Problem 06_01_Numeral_System
+Write a program that reads the digits of a base-10 numeral system – exactly 10 unique non-space characters on a single line, 
+representing the symbols used for the digits 0-9 (inclusively) – then reads two numbers represented in that numeral system, 
+then prints their sum in that numeral system
+
+Examples
+Input1	
+abcdefghij
+cba
+ja	
+Output:	daa
+
+Explanation: 
+a=0, b=1, …, j=9
+cba = 210
+ja = 90
+90 + 210 = 300 = daa
+
+Input2
+0123456789
+42
+512	
+Output: 554	
+Numeral system matches normal base-10 (0=0, 1=1, …, 9=9)
+
